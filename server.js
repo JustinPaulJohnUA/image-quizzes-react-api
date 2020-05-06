@@ -1,4 +1,3 @@
-'use cors';
 
 // dependencies 
 const express = require('express');
