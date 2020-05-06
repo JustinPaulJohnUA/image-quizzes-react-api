@@ -1,10 +1,12 @@
+'use cors';
+
 // dependencies 
 const express = require('express');
 const url = require('url');
 const fileUpload = require('express-fileupload');
 var bodyParser = require('body-parser');
 var cors = require('cors');
-var http = require('http')
+var https = require('https');
 
 // routers
 const generalRouter = require('./routers/generalRouter.js');
